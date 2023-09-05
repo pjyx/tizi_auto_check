@@ -1,0 +1,23 @@
+name: GLaDOS-checkin
+
+on:
+  push:
+  pull_request:
+  watch:
+    types: [ started ]
+  schedule:
+    - cron: 0 8,20 * * *
+  workflow_dispatch:
+
+jobs:
+  GLaDOS-checkin:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: checkin
+        env:
+          COOKIE: ${{ secrets.COOKIE }}
+        run: |
+          ./checkin.sh
