@@ -1,6 +1,6 @@
-# [源仓库](https://github.com/QikaiXu/GLaDOS-checkin)
+# [源仓库](https://github.com/pjyx/tizi_auto_check)
 
-2023-08-11
+2023-09-05
 一点小羊毛。**好哥哥们顺手点个 star 吧。**
 
 通过 github action 来实现自动签到，每天签到可以延时一天。
@@ -9,7 +9,7 @@
 
 [GLaDOS 官方 github](https://github.com/glados-network/GLaDOS)，[GLaDOS 官网](https://glados.rocks/)。
 
-如果还没有注册的话，可以去[这里](https://glados.rocks/register)注册，然后填写邀请码：`6PR84-GOQYO-2AR8F-IJAJJ`。双方都可以获得奖励天数哦。
+如果还没有注册的话，可以去[这里](https://glados.rocks/register)注册，然后填写邀请码：`JU430-F12B9-7F2BP-YWOKA`。双方都可以获得奖励天数哦。
 
 ## 步骤
 
