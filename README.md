@@ -1,7 +1,7 @@
 # [源仓库](https://github.com/pjyx/tizi_auto_check)
 
 2023-09-05
-一点小羊毛。**好哥哥们顺手点个 star 吧。**
+一点小羊毛。*** 好哥哥们顺手点个 star 吧。**8
 
 通过 github action 来实现自动签到，每天签到可以延时一天。
 
