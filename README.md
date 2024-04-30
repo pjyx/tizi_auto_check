@@ -1,7 +1,7 @@
 # [源仓库](https://github.com/pjyx/tizi_auto_check)
 
 
-update-20240306
+update-20240430
 
 2023-09-05
 一点小羊毛。*** 好哥哥们顺手点个 star 吧。**8
