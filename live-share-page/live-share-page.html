@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="format-detection" content="telephone=no">
+    <title>ANAR云TV</title>
+    <link rel="stylesheet" href="./css/live-share-page.css">
+</head>
+<body>
+<!-- 头部品牌区域 -->
+<header class="page-header">
+    <div class="brand">
+        <span class="brand-name">ANAR</span>
+        <span class="brand-sub">云TV · 直播</span>
+    </div>
+</header>
+
+<!-- 主要内容区域 -->
+<main class="main-content">
+    <!-- 海报区域 -->
+    <div class="poster-container">
+        <img id="poster" class="poster" alt="直播海报" hidden>
+        <div id="posterPlaceholder" class="poster-placeholder"></div>
+    </div>
+
+    <!-- 标题区域 -->
+    <section class="titles">
+        <h1 id="title" class="chinese-title">精彩直播</h1>
+        <p id="titleUyghur" class="arabic-title"></p>
+    </section>
+
+    <!-- 打开App按钮 -->
+    <a id="cta" class="cta-button" href="javascript:void(0)">
+        <span class="cta-chinese">打开App立即观看</span>
+        <span class="cta-arabic">ها زیر APP نی چوشورول</span>
+    </a>
+
+    <p class="tips">若已安装 ANAR云TV，点击按钮即可进入直播</p>
+</main>
+
+<!-- 微信/QQ 内置浏览器提示遮罩 -->
+<div id="wechatOverlay" class="wechat-overlay" hidden>
+    <div class="wechat-tip-content">
+        <div class="wechat-tip-text">
+            点击右上角 “···” ，选择在浏览器中打开
+            <div class="wechat-arrow"></div>
+        </div>
+    </div>
+</div>
+
+<script src="./js/live-share-page.js"></script>
+</body>
+</html>
